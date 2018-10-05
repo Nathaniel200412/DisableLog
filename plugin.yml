@@ -3,4 +3,4 @@ author: Assassiner354
 description: A plugin that deletes the server.log file
 main: remover\Main
 version: 1.0
-api: [3.0.0, 3.1.0, 3.2.0, 4.0.0]
+api: [3.0.0, 3.1.0, 3.2.0]
