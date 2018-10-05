@@ -2,5 +2,5 @@ name: Remover
 author: Assassiner354
 description: A plugin that deletes the server.log file
 main: remover\Main
-version: 1.0
+version: 1.1
 api: [3.0.0, 3.1.0, 3.2.0]
