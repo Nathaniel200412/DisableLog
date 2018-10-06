@@ -1,4 +1,4 @@
-name: Remover
+name: DisableLog
 author: Assassiner354
 description: A plugin that deletes the server.log file
 main: remover\Main
