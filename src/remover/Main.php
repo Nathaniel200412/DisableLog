@@ -7,12 +7,13 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
 
-    public function onEnable() {
+    public function onEnable(): void {
         $this->getLogger()->info(C::GREEN . "Remover has been activated by A354");
         unlink($this->getServer()->getDataPath()."server.log");
     }   
         
-    public function onDisable() {
+    public function onDisable(): void {
         $this->getLogger()->info(C::RED . "Remover has been deactivated by A354");
+        unlink($this->getServer()->getDataPath()."server.log");
     }
 }
